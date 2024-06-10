@@ -1,0 +1,8 @@
+{
+    "payload_type": "PersonAdded",
+    "payload_content": {
+        "person_id": "23b0f800-da7c-4e68-be13-333a01f52ed2",
+        "name": "Person 370",
+        "timestamp": "2024-06-08T00:15:23.296931Z"
+    }
+}

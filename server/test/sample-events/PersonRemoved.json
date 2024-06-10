@@ -1,0 +1,7 @@
+{
+    "payload_type": "PersonRemoved",
+    "payload_content": {
+        "person_id": "23b0f800-da7c-4e68-be13-333a01f52ed2",
+        "timestamp": "2024-06-08T13:13:16.478597Z"
+    }
+}
