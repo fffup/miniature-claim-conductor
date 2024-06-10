@@ -41,7 +41,7 @@ The service is available on [Cloudflare](https://cloudflare-server.fffup-account
 ### Approach
 The service stores the list of events received for each person ID in reverse chronological order. Getting the name is then achieved by reading the name of the most recent event. This approach assumes that the external phone book provider is well behaved. Given more information about the provider, I'd adjust the application layer to deal with e.g. a `PersonRenamed` for an unknown person_id; a `PersonRemoved` event followed by an `PersonAdded` or `PersonRenamed` with a more recent timestamp.
 
-### Further considerations
+## Further considerations
 - Unit tests, Dependency Injection (probably tsyringe).
 - Integration tests (probably with Postman).
 - A thorough code review to ensure no race conditions, with reference to the [Cloudflare API docs](https://developers.cloudflare.com/durable-objects/api/transactional-storage-api/).
