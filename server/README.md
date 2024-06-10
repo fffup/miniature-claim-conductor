@@ -21,6 +21,7 @@ You can seed the service by running the dummy data generator script. You can run
 cd test/integration
 python -m venv .
 source ./bin/activate
+pip install -r requirements.txt
 python ./elysian_PhonebookDummyDataGenerator.py
 ```
 
